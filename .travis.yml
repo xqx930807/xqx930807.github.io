@@ -12,6 +12,7 @@ install:
 script:
   - hexo clean
   - hexo g
+  - cp CNAME ./public/
 
 after_script:
   - cd ./public
